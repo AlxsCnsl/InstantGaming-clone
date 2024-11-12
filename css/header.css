@@ -1,0 +1,157 @@
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+}
+
+#nav_bar{
+    display: flex;
+    flex-direction: row;
+    background-color:rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(60px) saturate(100%);
+    width: 700px;
+    height: 80px;
+    align-items: center;
+    border-radius: 50px;
+}
+
+/*LOGO*/
+.logo_ig {
+    height: 50px;
+    width: 194px;
+    margin-left: 30px;
+}
+
+/*TOP_OF_NAV_BAR*/
+#top_nav{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#top_nav a{
+    margin: 20px;
+    display: flex;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+#top_nav a:hover{
+    color: rgb(255, 255, 255);
+}
+
+/*NAV_BAR*/
+#nav_bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav_bar .platform {
+    margin-right: 30px;
+}
+
+#nav_bar .platform a{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 14px ;
+    padding-right: 14px ;
+}
+
+#platforms{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+}
+
+#nav_bar .platform :hover{
+    background-color: rgba(255, 255, 255, 0.176);
+    border-radius: 35px;
+}
+
+#nav_bar .platform a :hover{
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 0px;
+}
+
+#nav_bar .platform p{
+    margin-left:10px ;
+}
+
+
+#nav_bar img{
+    width: 25px;
+}
+
+#search_icon{
+    width: 30px;
+    padding: 27.5px;
+    background: linear-gradient(10deg, #ff8000) #ff4020;
+    border-radius: 50px;
+    transition: padding 0.3s ease, width 0.3s ease;
+    animation: changeColor 2S infinite alternate;
+}
+
+@keyframes changeColor{
+    0%{
+        background: linear-gradient(10deg, #ffad14) #ff4020;
+    }
+    20%{
+        background: linear-gradient(10deg, #ff8000) #ff5213;
+    }
+    40%{
+        background: linear-gradient(10deg, #ff5213) #ff8000;
+    }
+    60%{
+        background: linear-gradient(10deg, #ff4020) #ffad14;
+    }
+    80%{
+        background: linear-gradient(10deg, #ff5213) #ff8000;
+    }
+    100%{
+        background: linear-gradient(10deg, #ff8000) #ff5213;
+    }
+}
+
+#search_icon:hover{
+    width: 36px;
+    padding: 22.1px;
+}
+
+
+/*Right_header*/
+
+#right_header{
+    display: flex;
+    flex-direction: row;
+}
+
+.right_icon{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-right: 30px;
+
+}
+
+.right_icon img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    width: 100%; /* S'adapte à la taille du conteneur */
+    height: 100%; /* S'adapte à la taille du conteneur */
+    transition: opacity 0.3s ease;
+}
+
+.right_icon img:hover{
+    opacity: 0;
+}
+

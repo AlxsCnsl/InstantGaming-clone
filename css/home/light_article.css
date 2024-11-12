@@ -1,0 +1,74 @@
+
+article{
+    color: white;
+    font-size: 40px;
+}
+
+/*LIGHT article*/
+#light_article {
+    position: relative;
+}
+
+#light_article img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    object-position: top;
+}
+
+#light_info {
+    position: absolute;
+    left: 10%;
+    top: 250px;
+    padding: 10px;
+    color: white;
+}
+
+#light_info #light_price{
+    margin-top: 15px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+
+/*Reduction*/
+.reduction{
+    height: 26px;
+    display: flex;;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+    width: 85px;
+}
+
+.reduction p{
+    position: absolute;
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 10px;
+    background-color: #ff5400;
+    border-radius: 5px;
+}
+
+.reduction_style{
+    transform: skewX(16deg);
+    background-color: #ff5400;
+    height: 23px;
+    width: 50px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+/*bot_img*/
+
+.bot_img{
+    position: absolute;
+    bottom: 9px;
+    left: 0;
+    width: 100%;
+    max-width: 2000px;
+    height: 60px;
+    background-color: #272727;
+    clip-path: polygon(0 100%, 100% 100%, 0 0);
+}

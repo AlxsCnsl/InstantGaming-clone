@@ -1,0 +1,59 @@
+.trustpilot_banner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #101010;;
+    font-size: 20px;
+    width: 100%;
+    justify-content: space-around;
+}
+.trustpilot_banner .trust_stars_content{
+    margin-right: 12%;
+}
+
+.trust_fast{
+    margin-left: 12%;
+}
+
+.trust_line{
+    height: 60px;
+    width: 1px;
+    background-color: #3a3a3a;
+}
+.trust_feature{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.trust_feature img{
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.trust_feature .feature_subtext{
+    font-size: 15px;
+    color: #757575;
+}
+
+.trust_stars_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;
+}
+
+.trust_stars_content .trust_logo{
+    width: 165.56px;
+    height: 33.62px;
+}
+
+.trust_stars_content .trust_stars img{
+    width: 20px;
+    height: 20px;
+}
+.trust_stars_content .hight_info{
+    font-weight:bold;
+}

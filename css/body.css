@@ -1,0 +1,60 @@
+
+@font-face {
+    font-family: 'NerdFont';
+    src: url('/fonts/0xProtoNerdFontMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: 'NerdFont', sans-serif;
+    border: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #272727;
+}
+
+header{
+    position: fixed;
+    top: 0; /* Position en haut de la page */
+    left: 0;
+    width: 100%; /* Prend toute la largeur de l'écran */
+    z-index: 1000; /* Assure que le header reste au-dessus des autres éléments */
+}
+
+
+/*Reduction*/
+.reduction{
+    height: 26px;
+    display: flex;;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+    width: 85px;
+}
+
+.reduction p{
+    position: absolute;
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 10px;
+    background-color: #ff5400;
+    border-radius: 5px;
+}
+
+.reduction_style{
+    transform: skewX(16deg);
+    background-color: #ff5400;
+    height: 23px;
+    width: 50px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+#large_selection section{
+    margin-bottom: 60px;
+}
+
+/*other section*/
