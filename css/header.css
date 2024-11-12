@@ -93,7 +93,7 @@ header{
 #search_icon{
     width: 30px;
     padding: 27.5px;
-    background: linear-gradient(10deg, #ff8000) #ff4020;
+    background: linear-gradient(10deg, #ff8000, transparent) #ff4020;
     border-radius: 50px;
     transition: padding 0.3s ease, width 0.3s ease;
     animation: changeColor 2S infinite alternate;
@@ -101,22 +101,22 @@ header{
 
 @keyframes changeColor{
     0%{
-        background: linear-gradient(10deg, #ffad14) #ff4020;
+        background: linear-gradient(10deg, #ffad14, transparent) #ff4020;
     }
     20%{
-        background: linear-gradient(10deg, #ff8000) #ff5213;
+        background: linear-gradient(10deg, #ff8000, transparent) #ff5213;
     }
     40%{
-        background: linear-gradient(10deg, #ff5213) #ff8000;
+        background: linear-gradient(10deg, #ff5213, transparent) #ff8000;
     }
     60%{
-        background: linear-gradient(10deg, #ff4020) #ffad14;
+        background: linear-gradient(10deg, #ff4020, transparent) #ffad14;
     }
     80%{
-        background: linear-gradient(10deg, #ff5213) #ff8000;
+        background: linear-gradient(10deg, #ff5213, transparent) #ff8000;
     }
     100%{
-        background: linear-gradient(10deg, #ff8000) #ff5213;
+        background: linear-gradient(10deg, #ff8000,transparent) #ff5213;
     }
 }
 
